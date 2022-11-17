@@ -162,7 +162,7 @@ MonoBehaviour:
   m_Follow: {fileID: 623388572}
   m_CommonLens: 1
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 70
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -399,7 +399,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 70
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -420,7 +420,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220390255}
-  m_LocalRotation: {x: 0.010244919, y: 0.000000001631821, z: -1.671875e-11, w: 0.99994755}
+  m_LocalRotation: {x: -0.022988278, y: 0.0000000018621532, z: 4.281901e-11, w: 0.9997358}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -589,6 +589,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   maxSlopeAngle: 45
+  bulletPrefab: {fileID: 0}
   orientation: {fileID: 1187786814}
   state: 0
   sliding: 0
@@ -1280,7 +1281,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-70532
+  m_Name: pb_Mesh18278
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1522,7 +1523,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 5000
-  field of view: 40
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1547,7 +1548,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.026932899, y: 1.5026204e-10, z: -4.0484604e-12, w: 0.99963725}
+  m_LocalRotation: {x: 0.008855393, y: -0.0000000024356341, z: 2.1569342e-11, w: 0.99996084}
   m_LocalPosition: {x: 0, y: 16.512415, z: -56.51757}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1650,7 +1651,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 796360270}
 --- !u!33 &1004187607
@@ -2877,7 +2878,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 70
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -3533,7 +3534,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 0}
   m_Lens:
-    FieldOfView: 40
+    FieldOfView: 70
     OrthographicSize: 10
     NearClipPlane: 0.1
     FarClipPlane: 5000
@@ -3554,7 +3555,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2129932903}
-  m_LocalRotation: {x: 0.028383734, y: -1e-45, z: -0, w: 0.99959713}
+  m_LocalRotation: {x: 0.011624453, y: -0.000000002191958, z: 2.5482031e-11, w: 0.99993247}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

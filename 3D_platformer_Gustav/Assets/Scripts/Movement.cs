@@ -78,13 +78,7 @@ public class Movement : MonoBehaviour
         startYScale = transform.localScale.y;
     }
 
-   void Update()
-    {
-        if (Input.GetButtonDown(0))
-        {
 
-        }
-    }
 
 
 
