@@ -48,6 +48,8 @@ public class Movement : MonoBehaviour
     public GameObject bulletPrefab;
 
     public Transform orientation;
+    public Animator anim;
+
 
     float horizontalInput;
     float verticalInput;
@@ -63,7 +65,8 @@ public class Movement : MonoBehaviour
         sprinting,
         crouching,
         sliding,
-        air
+        air,
+        idle,
     }
 
     public bool sliding;
@@ -145,6 +148,7 @@ public class Movement : MonoBehaviour
 
             else
                 desiredMoveSpeed = sprintSpeed;
+            anim.SetBool("Walking", false);
         }
 
         // Crouching
@@ -152,6 +156,7 @@ public class Movement : MonoBehaviour
         {
             state = MovementState.crouching;
             desiredMoveSpeed = crouchSpeed;
+            anim.SetBool("Walking", false);
         }
 
         // Sprinting
@@ -159,19 +164,26 @@ public class Movement : MonoBehaviour
         {
             state = MovementState.sprinting;
             desiredMoveSpeed = sprintSpeed;
+            anim.SetBool("Walking", false);
         }
 
         // Walking
-        else if (grounded)
+        else if (grounded && (horizontalInput != 0 || verticalInput != 0))
         {
             state = MovementState.walking;
             desiredMoveSpeed = walkSpeed;
-        }
+            anim.SetBool("Walking", true);
 
+        }
+       else if (grounded)
+        {
+            state = MovementState.idle;
+        } 
         // Air
         else
         {
             state = MovementState.air;
+            anim.SetBool("Walking", false);
         }
 
         // check if desiredMoveSpeed has changed drastically
