@@ -175,9 +175,12 @@ public class Movement : MonoBehaviour
             anim.SetBool("Walking", true);
 
         }
-       else if (grounded)
+
+        //idle
+       else if (grounded && (horizontalInput == 0 || verticalInput == 0))
         {
             state = MovementState.idle;
+            anim.SetBool("Walking", false);
         } 
         // Air
         else
