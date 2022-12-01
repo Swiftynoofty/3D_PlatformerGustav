@@ -1889,7 +1889,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 220390255}
-  m_LocalRotation: {x: -0.030795798, y: 0.000000001074889, z: 3.311777e-11, w: 0.9995257}
+  m_LocalRotation: {x: -0.030795798, y: -0.0000000010748888, z: -3.3117765e-11, w: 0.9995257}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2406,7 +2406,7 @@ MonoBehaviour:
   maxSlopeAngle: 45
   bulletPrefab: {fileID: 0}
   orientation: {fileID: 1187786814}
-  anim: {fileID: 0}
+  anim: {fileID: 919132149598659422}
   state: 0
   sliding: 0
 --- !u!54 &623388574
@@ -3105,7 +3105,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.0010451408, y: 0.0000000016561131, z: -1.7308731e-12, w: 0.9999995}
+  m_LocalRotation: {x: 0.0010451408, y: 0.0000000013119857, z: -1.3712127e-12, w: 0.9999995}
   m_LocalPosition: {x: 0, y: -6.378384, z: 48.463135}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
