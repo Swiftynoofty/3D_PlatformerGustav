@@ -117,7 +117,7 @@ public class Movement : MonoBehaviour
             readyToJump = false;
 
             Jump();
-
+            anim.SetBool("Jumping", true);
             //resets jump after jumping so you can hold space to regester next jump
             Invoke(nameof(ResetJump), jumpCooldown);
         }
