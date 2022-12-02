@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -73,10 +73,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 677, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 679, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 115
+  controlID: 58
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -96,8 +96,8 @@ MonoBehaviour:
     y: 0
     width: 302
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -122,8 +122,8 @@ MonoBehaviour:
     y: 0
     width: 479
     height: 676
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -251,10 +251,10 @@ MonoBehaviour:
     y: 0
     width: 1618
     height: 947
-  m_MinSize: {x: 402, y: 492}
+  m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 116
+  controlID: 113
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,10 +276,10 @@ MonoBehaviour:
     y: 0
     width: 1618
     height: 676
-  m_MinSize: {x: 402, y: 221}
-  m_MaxSize: {x: 8002, y: 4021}
+  m_MinSize: {x: 403, y: 221}
+  m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 117
+  controlID: 114
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -387,25 +387,25 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Animations
   m_LastFoldersGridSize: 55
-  m_LastProjectPath: C:\Users\ggorski2022\Games\3D_PlatformerGustav\3D_platformer_Gustav
+  m_LastProjectPath: C:\Gustav\3DGustavPlatform0212\3D_platformer_Gustav
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 14}
-    m_SelectedIDs: 224c0000
-    m_LastClickedID: 19490
-    m_ExpandedIDs: 00000000004c00002e4c000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 4c4e0000
+    m_LastClickedID: 20044
+    m_ExpandedIDs: 00000000464e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Materials
-      m_OriginalName: Materials
+      m_Name: Scenes
+      m_OriginalName: Scenes
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 35558
+      m_UserData: 20060
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -422,7 +422,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000004c0000
+    m_ExpandedIDs: 00000000464e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -450,7 +450,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000f2420000d04800006e5100008061000040dcfeff
+    m_ExpandedInstanceIDs: c6230000f2420000d04800006e5100008061000040dcfeff801b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -542,10 +542,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 00b4feff
-      m_LastClickedID: -84992
-      m_ExpandedIDs: 00b4feff3ab8feffc43bffff2a99ffff74a8ffff4afbffff324700004447000090470000aa470000064800004448000064480000f24800001a49000060490000b2490000044a0000884a0000e8180100301901004a1901009c190100
+      scrollPos: {x: 0, y: 6}
+      m_SelectedIDs: d0550000
+      m_LastClickedID: 21968
+      m_ExpandedIDs: 84edffffd2edffff20f8ffff98550000e0550000fa5500004a56000088560000985600009e560000e8560000105700003c57000042570000d45700003c58000094580000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -605,9 +605,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -4.352309, y: -7.6177106, z: 63.29428}
+    m_Target: {x: -0.6742878, y: -2.446683, z: 65.0449}
     speed: 2
-    m_Value: {x: -4.352309, y: -7.6177106, z: 63.29428}
+    m_Value: {x: -0.6742878, y: -2.446683, z: 65.0449}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -654,13 +654,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0319206, y: -0.68691623, z: 0.027830184, w: 0.7259843}
+    m_Target: {x: 0.060564764, y: -0.6476684, z: 0.049593702, w: 0.7584015}
     speed: 2
-    m_Value: {x: 0.030901745, y: -0.6845364, z: 0.026697053, w: 0.72783405}
+    m_Value: {x: 0.06061561, y: -0.64627975, z: 0.049483635, w: 0.7590782}
   m_Size:
-    m_Target: 5.4778004
+    m_Target: 6.895299
     speed: 2
-    m_Value: 5.4778004
+    m_Value: 6.895299
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -743,7 +743,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1

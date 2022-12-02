@@ -181,6 +181,7 @@ public class Movement : MonoBehaviour
         {
             state = MovementState.idle;
             anim.SetBool("Walking", false);
+            
         } 
         // Air
         else
