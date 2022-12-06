@@ -5,7 +5,7 @@ using Cinemachine;
 
 public class aiming : MonoBehaviour
 {   
-    [SerializeField] private GameObject aimCam;
+    [SerializeField] private CinemachineFreeLook aimCam;
 
     private void Update()
     {
@@ -14,7 +14,7 @@ public class aiming : MonoBehaviour
             
             aimCam.gameObject.SetActive(true);
         }
-        else
+        else if (Input.GetMouseButtonUp(1))
         {
             aimCam.gameObject.SetActive(false);
         }
